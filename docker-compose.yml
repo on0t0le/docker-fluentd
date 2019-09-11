@@ -12,8 +12,7 @@ services:
   tester:
     image: busybox
     container_name: docker-tester
-    command: >
-      /bin/bash -c "echo 'Tester says hello!'"
+    command: "echo 'Hello from tester'"
     depends_on:
       - fluentd
     logging:
