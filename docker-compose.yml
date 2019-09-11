@@ -1,5 +1,5 @@
 version: '3'
-servcies:
+services:
   fluentd:
     image: fluent/fluentd:edge
     container_name: docker-fluentd
